@@ -38,7 +38,7 @@ class HomePage extends StatelessWidget {
         child: const Icon(Icons.arrow_right_alt), //стрелка в право
         onPressed: () {
           Navigator.push<void>(
-            //нфвигаттор в Логин страницу
+            //навигатор в Логин страницу
             context,
             MaterialPageRoute<void>(
               builder: (BuildContext context) => const LoginPage(),
